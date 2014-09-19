@@ -3,6 +3,6 @@ import webapp2
 class MainPage(webapp2.RequestHandler):
     def get(self):
         self.response.headers['Content-Type'] = 'text/plain'
-        self.response.write('Hello, Udacityfkjfhkjh!')
+        self.response.write('Hello, Mansih!')
 
 application = webapp2.WSGIApplication([('/', MainPage),], debug=True)
